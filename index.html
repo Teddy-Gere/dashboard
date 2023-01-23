@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        favicon
+    -->
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!--
+         custom css
+    -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+      - google font link
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;900&display=swap"
+      rel="stylesheet">
+  
+    <!-- 
+      - material icon link
+    -->
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <span >Dashboard</span>
+            </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li>
+                    <a href="#" class="home">
+                        <span class="material-symbols-rounded">
+                            grid_view
+                            </span>
+                            <span>
+                                Home
+
+                            </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="projects">
+                        <span class="material-symbols-rounded">
+                            folder
+                            </span>
+                            <span>
+                                Projects
+                            </span>
+
+                </li>
+                <li>
+                    <a href="#" class="tasks">
+                        <span class="material-symbols-rounded">
+                            format_list_bulleted
+                            </span>
+                            <span>
+                                Tasks
+
+                            </span>
+                </li>
+
+                <li>
+
+                    <a href="#" class="reports">
+                        <span class="material-symbols-rounded">
+                            bar_chart
+                            </span>
+                            <span>
+                                Reports
+
+                            </span>
+                </li>
+                <li>
+
+                    <a href="#" class="settings">
+                        <span class="material-symbols-rounded">
+                            settings
+                            </span>
+                            <span>
+                                Settings
+
+                            </span>
+                            </a>
+                </li>
+                <li>
+                    <span class="material-symbols-rounded">
+                        notifications
+                        </span>
+
+                </li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="./assets/images/avatar-1.jpg" width="40" height="40" />
+            <div class="profile__info">
+                <span class="name">Elizabeth F</span>
+                <span class="role">Admin</span>
+
+            </div>
+        </div>
+
+        <button class="toggle__menu">
+            <span class="material-symbols-rounded">
+                menu
+                </span>
+        </button>
+        </div>
+    </header>
+
+    <main>
+  <section class="about">
+    <div class="container">
+         <h1 class="section__heading">Hi Elizabeth</h1>
+         <p class="section__subheading">Welcome to Dashboard!</p>
+
+      <div class="about__cards">
+        <div class="about__contact__card">
+            <div class="card__info">
+                <img src="./assets/images/avatar-1.jpg" alt="" width="40" height="40" />
+                <h1 class="card__title">Elizabeth Foster</h1>
+                <span class="card_subtitle">Web & Graphic Designer</span>
+                <div class="more__display">
+                    <span class="material-symbols-rounded  icon">more_horiz</span>
+                    <ul class="display__list">
+                        <li>
+                            <button>
+                                <span class="material-symbols-rounded  icon">edit</span>
+                                <span>Edit</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span class="material-symbols-rounded  icon">cached</span>
+                                <span>Refresh</span>
+                            </button>
+                        </li>
+                        <li><div class="list-divider"></div> </li>
+                        <li>
+                            <button>
+                                <span class="material-symbols-rounded  icon">delete</span>
+                                <span>Deactivated</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card__content">
+                <div>
+                    <span class="material-symbols-rounded  icon">mail</span> <span>xyz@mail.com</span>
+                </div>
+                <div>
+                    <span class="material-symbols-rounded  icon">call</span> <span>+00 123-456-789</span>
+                </div>
+            </div>
+
+            <div class="card__divider"></div>
+
+            <div class="card__actions">
+                <div class="projects">
+                    <span class="completion">Project Completion</span>
+                    <span class="percent">85%</span>
+                </div>
+                <div class="ratings">
+                    <span class="title">Overall Rating</span>
+                    <span class="Overall">7.5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__completedtask">
+            <span class="material-symbols-rounded  icon">task_alt</span>
+            <h2 class="about__title">21</h2>
+            <span class="about__subtitle">Tasks Completed</span>
+        </div>
+        <div class="about__inprogresstask">
+            <span class="material-symbols-rounded  icon">drive_file_rename_outline</span>
+            <h2 class="about__title">21</h2>
+            <span class="about__subtitle">Tasks Inprogress</span>
+        </div>
+
+        <div class="about__revenue">
+           <div class="revenue__content">
+            <span class="category">Revenue</span>
+            <h1 class="revenue__heading">$2,100</h1>
+            <span class="revenue__subheading">Last Week</span>
+
+            <div class="more__display">
+                <span class="material-symbols-rounded  icon">more_horiz</span>
+                <ul class="display__list">
+                    <li>
+                        <button>
+                            <span class="material-symbols-rounded  icon">edit</span>
+                            <span>Edit</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <span class="material-symbols-rounded  icon">cached</span>
+                            <span>Refresh</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+           </div>
+           <div class="list-divider"></div> 
+           <div class="revenue__actions">
+             <div class="revenue__perweek">
+                <span class="material-symbols-rounded  icon  green">trending_up</span>
+                <div class="revenue__percentile">
+                    <span class="percentile">15%</span>
+                    <span class="name">Prev Week</span>
+                </div>
+             </div>
+             <div class="revenue__permonth">
+                <span class="material-symbols-rounded  icon  red">trending_down</span>
+                <div class="revenue__percentile">
+                    <span class="percentile">10%</span>
+                    <span class="name">Prev Month</span>
+                </div>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+        <div class="project__headers">
+            <h1 class="section__heading">Recent Projects</h1>
+            <button class="btn">
+                View All
+                <span class="material-symbols-rounded  icon" aria-hidden="true">arrow_forward</span>
+            </button>
+        </div>
+
+        <div class="project__cards">
+            <div class="project__card">
+                <span class="project__subtitle">
+                    Apr 09, 2022
+                </span>
+                <h1 class="project__title">
+                    Shreyu - Design Updates
+                </h1>
+                <span class="project__tag">
+                    Designing
+                </span>
+                <p class="project__text">
+                    Update shreyu with modern and latest trends..
+                </p>
+
+                <div class="project__progress">
+                    <span>Progress</span>
+                    <span class="Percent__completed">75%</span>
+                </div>
+
+                <div class="project__participant">
+                    <img src="assets/images/avatar-1.jpg" alt="" class="img1" width="30" height="30">
+                    <img src="assets/images/avatar-2.jpg" alt="" class="img2" width="30" height="30">
+                </div>
+            </div>
+
+            <div class="project__card">
+                <span class="project__subtitle">
+                    Apr 09, 2022
+                </span>
+                <h1 class="project__title">
+                    Prompt v2.0
+                </h1>
+                <span class="project__tag">
+                    Planning
+                </span>
+                <p class="project__text">
+                    Update shreyu with modern and latest trends..
+                </p>
+
+                <div class="project__progress">
+                    <span>Progress</span>
+                    <span class="Percent__completed">50%</span>
+                </div>
+
+                <div class="project__participant">
+                    <img src="assets/images/avatar-1.jpg" alt="" class="img1" width="30" height="30">
+                    <img src="assets/images/avatar-2.jpg" alt="" class="img2" width="30" height="30">
+                </div>
+            </div>
+
+            <div class="project__card">
+                <span class="project__subtitle">
+                    Apr 09, 2022
+                </span>
+                <h1 class="project__title">
+                    Hyper React v4.0
+                </h1>
+                <span class="project__tag">
+                    Development
+                </span>
+                <p class="project__text">
+                    Update shreyu with modern and latest trends..
+                </p>
+
+                <div class="project__progress">
+                    <span>Progress</span>
+                    <span class="Percent__completed">60%</span>
+                </div>
+
+                <div class="project__participant">
+                    <img src="assets/images/avatar-1.jpg" alt="" class="img1" width="30" height="30">
+                    <img src="assets/images/avatar-2.jpg" alt="" class="img2" width="30" height="30">
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<section class="tasks">
+    <div class="container">
+        <div class="task">
+            <div class="task__checkbox">
+                <input type="checkbox" name="" id="checkbox1">
+                <label for="checkbox1">Draft the new contract document for sales team</label>
+            </div>
+            <div class="task__date__div">
+            <span class="task__date">Today 10pm
+            </span>
+            </div>
+
+            <ul class="li">
+               <div class="task__item">
+                <span class="material-symbols-rounded  icon">list</span>
+                <span class="task__number">3/7</span>
+               </div>
+                <div class="task__item">
+                    <span class="material-symbols-rounded  icon">comment</span>
+                    <span class="task__number">21</span>
+                   </div>
+                <span class="task__item">
+                    Hight
+                </span>
+            </ul>
+        </div>
+
+        <div class="task">
+            <div class="task__checkbox">
+                <input type="checkbox" name="" id="checkbox2">
+                <label for="checkbox2">iOS App home page design</label>
+            </div>
+            <div class="task__date__div">
+            <span class="task__date">Today 5pm
+            </span>
+            </div>
+            <ul class="li">
+               <div class="task__item">
+                <span class="material-symbols-rounded  icon">list</span>
+                <span class="task__number">10/11</span>
+               </div>
+                <div class="task__item">
+                    <span class="material-symbols-rounded  icon">comment</span>
+                    <span class="task__number">5</span>
+                   </div>
+                <span class="task__item">
+                    Medium
+                </span>
+            </ul>
+        </div>
+
+        <div class="task">
+            <div class="task__checkbox">
+                <input type="checkbox" name="" id="checkbox3">
+                <label for="checkbox3">Enable analytics tracking</label>
+            </div>
+            <div class="task__date__div">
+                <span class="task__date">Tomorrow 5pm
+                </span>
+            </div>
+            <ul class="li">
+               <div class="task__item">
+                <span class="material-symbols-rounded  icon">list</span>
+                <span class="task__number">5/11</span>
+               </div>
+                <div class="task__item">
+                    <span class="material-symbols-rounded  icon">comment</span>
+                    <span class="task__number">7</span>
+                   </div>
+                <span class="task__item">
+                    Medium
+                </span>
+            </ul>
+        </div>
+
+        <div class="task">
+            <div class="task__checkbox">
+                <input type="checkbox" name="" id="checkbox4">
+                <label for="checkbox4">Kanban board design</label>
+            </div>
+            <div class="task__date__div">
+                <span class="task__date">Sep 11, 3pm
+                </span>
+            </div>
+            <ul class="li">
+               <div class="task__item">
+                <span class="material-symbols-rounded  icon">list</span>
+                <span class="task__number">0/5</span>
+               </div>
+                <div class="task__item">
+                    <span class="material-symbols-rounded  icon">comment</span>
+                    <span class="task__number">3</span>
+                   </div>
+                <span class="task__item">
+                    Low
+                </span>
+            </ul>
+        </div>
+       <button class="task__button">
+        <span>Load More</span>
+       </button>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="footer__list">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Developers</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+            </ul>
+
+            <p class="copy__right">
+                    © 2022 <a href="#" class="copyright-link">Kalayu Ftsum</a>. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js">
+
+    </script>
+</body>
+</html>
